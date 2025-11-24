@@ -1,5 +1,15 @@
-@media screen {
+/* @media screen {
 h1{
 background-color: red;
 }
+} */
+
+h1{
+
+font-size: 1rem;
+
+@media screen and (min-width: 767px){ font-size: 1.5rem; }
+
+@media screen and (min-width: 1024px){ font-size: 2rem; }
+
 }
