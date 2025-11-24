@@ -4,6 +4,21 @@
         background-image: url("https://i.pinimg.com/564x/1c/02/20/1c022001c80c4d0d2a13da2137ca56ff.jpg");
     }
 
+    nav{
+        background: linear-gradient(90deg, #0052cc, #00c7ff);
+        padding: 15px;
+        display: flex;
+        list-style: none;
+        justify-content: center;
+        gap: 30px;
+        padding: 8px 15px;
+        background-color: #444;
+        border-radius: 30px;
+        color: rgb(14, 0, 0);
+        text-decoration: none;
+        transition: 0.3s;
+    }
+
     h1{
         color: rgb(253, 255, 255);
         text-align: center;
