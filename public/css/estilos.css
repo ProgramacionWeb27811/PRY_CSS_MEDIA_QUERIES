@@ -1,15 +1,17 @@
-/* @media screen {
-h1{
-background-color: red;
+@media (min-width: 320px) and (max-width: 480px) {
+    h1{
+        color: black;
+    }
 }
-} */
 
-h1{
+@media (min-width: 481px) and (max-width: 768px) {
+    h1{
+        color: aqua;
+    }
+}
 
-font-size: 1rem;
-
-@media screen and (min-width: 767px){ font-size: 1.5rem; }
-
-@media screen and (min-width: 1024px){ font-size: 2rem; }
-
+@media (min-width: 769px) and (max-width: 1669px){
+    h1{
+        color:blueviolet;
+    }
 }
