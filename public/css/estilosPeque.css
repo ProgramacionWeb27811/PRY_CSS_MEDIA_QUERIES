@@ -41,4 +41,21 @@
         font-style: oblique;
         text-decoration-line: underline;
     }
+
+    nav{
+        background: linear-gradient(50deg, yellow, green);
+        padding: 15px;
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+        padding: 8px 15px;
+        border-radius: 30px;        
+        transition: 0.3s;
+    }
+
+    a{
+        background-color: white;
+        color: blue;
+        text-decoration: none;
+    }
 }
