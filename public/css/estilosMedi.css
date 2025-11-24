@@ -12,9 +12,8 @@
         justify-content: center;
         gap: 30px;
         padding: 8px 15px;
-        background-color: #444;
         border-radius: 30px;
-        color: rgb(14, 0, 0);
+        color: rgb(0, 0, 0);
         text-decoration: none;
         transition: 0.3s;
     }
@@ -62,7 +61,7 @@
     footer{
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         font-style: oblique;
-        color:black;
+        color:rgb(255, 255, 255);
         font-weight: 700;
         text-align: center;
     }
