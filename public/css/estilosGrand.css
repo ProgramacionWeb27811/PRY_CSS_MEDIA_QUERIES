@@ -2,24 +2,39 @@
     
 
     h1{
-        color:chartreuse;
+        color:coral;
         position: relative;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         text-align: center;
     }
 
     html{
-        background-color: cornflowerblue;
+        background-image: url(https://www.aquariumcostadealmeria.com/wp-content/uploads/2018/02/destacada-2.jpg);
     }
     
     table{
         background-color: aquamarine;
-        padding: 10%;
+        padding: 5%;
         align-content: center;
     }
 
     th{
         font-size: 30px;
+    }
+
+    nav{
+        background: linear-gradient(90deg, #0052cc, #00c7ff);
+        display: flex;
+        list-style: none;
+        justify-content: center;
+        font-size: larger;
+        gap: 30px;
+        padding: 8px 15px;
+        background-color: #444;
+        border-radius: 30px;
+        color: rgb(14, 0, 0);
+        transition: 0.3s;
+        font-weight: bold;
     }
 
     label{
