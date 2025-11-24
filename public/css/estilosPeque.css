@@ -35,10 +35,6 @@
         accent-color: red;
     }
 
-    input[type=submit]{
-        background-color: blueviolet;
-    }
-
     footer{
         font-weight: 900;
         color: white;
